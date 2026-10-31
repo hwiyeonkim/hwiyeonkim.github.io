@@ -262,7 +262,7 @@ figure .btnNext span {
 	transform: translateX(-30%);
 	transition: 0.5s;
 }
-figure .btnPrev::before {
+figure .btnNext::before {
 	content: "";
 	display: block;
 	width: 100%;
@@ -275,7 +275,7 @@ figure .btnPrev::before {
 	transform: rotate(180deg);
 	transition: 0.5s;
 }
-figure .btnPrev::after {
+figure .btnNext::after {
 	content: "";
 	display: block;
 	width: 100%;
@@ -288,13 +288,13 @@ figure .btnPrev::after {
 	transform: rotate(-180deg);
 	transition: 0.5s;
 }
-figure .btnPrev:hover span {
+figure .btnNext:hover span {
 	opacity: 0;
 	transform: translateX(-100%);
 }
-figure .btnPrev:hover::before {
+figure .btnNext:hover::before {
 	transform: rotate(30deg);
 }
-figure .btnPrev:hover::after {
+figure .btnNext:hover::after {
 	transform: rotate(-30deg);
 }
